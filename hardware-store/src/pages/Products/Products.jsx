@@ -36,7 +36,7 @@ export default function Products() {
     filtered = filtered.filter(p =>
       p.name.toLowerCase().includes(q) ||
       p.sku.toLowerCase().includes(q) ||
-      p.description.toLowerCase().includes(q)
+      (p.description && p.description.toLowerCase().includes(q))
     );
   }
 
