@@ -65,13 +65,20 @@ export default function Footer() {
                 <div className="footer__contact-icon-wrap">
                   <img src={phoneIcon} alt="" className="footer__contact-img-icon" />
                 </div>
-                <a href="tel:+94771453183" className="footer__link">+94 77 145 3183</a>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                  <a href="tel:0117320068" className="footer__link">011 732 0068</a>
+                  <a href="tel:0771453183" className="footer__link">077 145 3183</a>
+                  <a href="tel:0756539790" className="footer__link">075 653 9790</a>
+                </div>
               </li>
               <li>
                 <div className="footer__contact-icon-wrap">
                   <img src={emailIcon} alt="" className="footer__contact-img-icon" />
                 </div>
-                <a href="mailto:info@kdsenith.lk" className="footer__link">info@kdsenith.lk</a>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                  <a href="mailto:info@senithtrader.lk" className="footer__link">info@senithtrader.lk</a>
+                  <a href="mailto:kd@senithtrader.lk" className="footer__link">kd@senithtrader.lk</a>
+                </div>
               </li>
               <li>
                 <div className="footer__contact-icon-wrap">

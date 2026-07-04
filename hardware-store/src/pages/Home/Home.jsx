@@ -237,7 +237,7 @@ export default function Home() {
             <Link to="/contact" className="btn btn--primary btn--lg" id="cta-banner-btn">
               Contact Us Today
             </Link>
-            <a href="tel:+94771453183" className="btn btn--outline btn--lg" id="cta-phone-btn">
+            <a href="tel:0771453183" className="btn btn--outline btn--lg" id="cta-phone-btn">
               Call Now
             </a>
           </div>

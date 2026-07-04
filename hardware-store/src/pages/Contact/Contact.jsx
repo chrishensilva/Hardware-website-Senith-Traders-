@@ -13,14 +13,19 @@ const businessInfo = [
   {
     icon: i3,
     title: 'Phone',
-    lines: ['+94 77 145 3183'],
-    href: 'tel:+94771453183',
+    lines: [
+      { text: '011 732 0068', href: 'tel:0117320068' },
+      { text: '077 145 3183', href: 'tel:0771453183' },
+      { text: '075 653 9790', href: 'tel:0756539790' },
+    ],
   },
   {
     icon: i2,
     title: 'Email',
-    lines: ['info@kdsenith.lk', 'sales@kdsenith.lk'],
-    href: 'mailto:info@kdsenith.lk',
+    lines: [
+      { text: 'info@senithtrader.lk', href: 'mailto:info@senithtrader.lk' },
+      { text: 'kd@senithtrader.lk', href: 'mailto:kd@senithtrader.lk' },
+    ],
   },
   {
     icon: i4,
@@ -59,11 +64,23 @@ export default function Contact() {
                     </div>
                     <div>
                       <div className="contact-info__item-title">{item.title}</div>
-                      {item.lines.map((line, j) => (
-                        item.href && j === 0
-                          ? <a key={j} href={item.href} className="contact-info__item-line contact-info__item-link">{line}</a>
-                          : <div key={j} className="contact-info__item-line">{line}</div>
-                      ))}
+                      {item.lines.map((line, j) => {
+                        const isObject = typeof line === 'object';
+                        const text = isObject ? line.text : line;
+                        const href = isObject ? line.href : item.href;
+                        
+                        return href ? (
+                          <div key={j} className="contact-info__item-line">
+                            <a href={href} className="contact-info__item-link">
+                              {text}
+                            </a>
+                          </div>
+                        ) : (
+                          <div key={j} className="contact-info__item-line">
+                            {text}
+                          </div>
+                        );
+                      })}
                     </div>
                   </li>
                 ))}
@@ -73,10 +90,10 @@ export default function Contact() {
             {/* Quick Links */}
             <div className="contact-quick">
               <h3 className="contact-quick__title">Quick Actions</h3>
-              <a href="tel:+94771453183" className="btn btn--primary contact-quick__btn" id="quick-call-btn">
+              <a href="tel:0771453183" className="btn btn--primary contact-quick__btn" id="quick-call-btn">
                 Call Us Now
               </a>
-              <a href="mailto:info@kdsenith.lk" className="btn btn--outline-dark contact-quick__btn" id="quick-email-btn">
+              <a href="mailto:info@senithtrader.lk" className="btn btn--outline-dark contact-quick__btn" id="quick-email-btn">
                 Send an Email
               </a>
             </div>

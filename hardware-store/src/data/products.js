@@ -436,6 +436,24 @@ export const products = [
   // --- Wet Floor Sign ---
   { id: 243, sku: 'SP-044', name: 'Wet Floor Sign', category: 'safety', inStock: true, featured: false, image: 'SP_r68.png',
     specs: [{ label: 'Type', value: 'Wet Floor Caution Sign' }, { label: 'Shape', value: 'A-Frame' }] },
+
+  // --- Rubber Speed Hump ---
+  {
+    id: 244,
+    sku: 'SP-045',
+    name: 'Rubber Speed Hump — Code 809',
+    category: 'safety',
+    inStock: true,
+    featured: false,
+    image: 'Senith_Rubber_Speed_Hump.png',
+    description: 'Rubber Speed Bump made of high-quality rubber materials, featuring high durability and strength with excellent resistance to wear and pressure, ensuring a long service life. It has a visible and clear design with eye-catching colors, making it effective in various environmental conditions. Designed to reduce vehicle speed in areas that require speed reduction, helping to improve road safety.',
+    specs: [
+      { label: 'Size', value: '1000 × 325 × 50 mm' },
+      { label: 'Weight', value: '10 kg' },
+      { label: 'Material', value: 'Rubber' },
+      { label: 'Attachments', value: 'Includes 8 screws for installation' }
+    ]
+  },
 ];
 
 export const getFeaturedProducts = () => products.filter(p => p.featured);
