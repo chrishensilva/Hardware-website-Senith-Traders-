@@ -59,7 +59,7 @@ export default function Footer() {
                 <div className="footer__contact-icon-wrap">
                   <img src={mapIcon} alt="" className="footer__contact-img-icon" />
                 </div>
-                <span>26/C/3 Biyagama Road, Talwatta Gonawala,<br/>Kelaniya 11600, Sri Lanka</span>
+                <span>26/C/1 Biyagama Road, Talwatta Gonawala,<br />Kelaniya 11600, Sri Lanka</span>
               </li>
               <li>
                 <div className="footer__contact-icon-wrap">
