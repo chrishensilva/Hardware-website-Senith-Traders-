@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import './Contact.css';
 import i1 from '../../assets/map.png';
 import i2 from '../../assets/email.png';
@@ -8,7 +9,7 @@ const businessInfo = [
   {
     icon: i1,
     title: 'Our Location',
-    lines: ['26/C/3 Biyagama Road, Talwatta Gonawala', 'Kelaniya 11600, Sri Lanka'],
+    lines: ['26/C/1 Biyagama Road, Talwatta Gonawala', 'Kelaniya 11600, Sri Lanka'],
   },
   {
     icon: i3,
@@ -35,6 +36,14 @@ const businessInfo = [
 ];
 
 export default function Contact() {
+  useEffect(() => {
+    document.title = "Contact K D Senith Traders | Safety Equipment & Manhole Covers Supplier Sri Lanka";
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+      metaDesc.setAttribute("content", "Get in touch with K D Senith Traders PVT LTD, Gonawala, Kelaniya. Reach out for wholesale pricing on safety equipment, cast iron manhole covers, gully covers, and road safety accessories.");
+    }
+  }, []);
+
   return (
     <main className="page-content">
       {/* Page Header */}
@@ -68,7 +77,7 @@ export default function Contact() {
                         const isObject = typeof line === 'object';
                         const text = isObject ? line.text : line;
                         const href = isObject ? line.href : item.href;
-                        
+
                         return href ? (
                           <div key={j} className="contact-info__item-line">
                             <a href={href} className="contact-info__item-link">

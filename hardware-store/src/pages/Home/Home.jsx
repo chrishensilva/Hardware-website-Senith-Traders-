@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import ProductCard from '../../components/ProductCard/ProductCard';
 import { getFeaturedProducts } from '../../data/products';
@@ -17,22 +18,22 @@ const categories = [
   {
     id: 'manhole',
     icon: roadIcon,
-    title: 'Cast Iron Manhole & Gully Cover',
-    desc: 'Round and square manhole covers, recessed covers, gully grates, and kerb drain inlets — all EN 124 certified.',
+    title: 'Cast Iron Manhole & Gully Covers',
+    desc: 'Top-quality cast iron manhole covers and gully covers in Sri Lanka. Heavy-duty round & square covers, gully grates, and kerb inlets — EN 124 certified.',
     count: 8,
   },
   {
     id: 'parking',
     icon: tollIcon,
-    title: 'Parking Safety Equipments',
-    desc: 'Wheel stops, parking bollards, speed bumps, traffic cones, convex mirrors, and parking signs.',
+    title: 'Road & Parking Safety Equipments',
+    desc: 'Premium parking safety products and road equipment in Sri Lanka, including rubber speed humps, wheel stops, traffic cones, and convex mirrors.',
     count: 29,
   },
   {
     id: 'safety',
     icon: vestIcon,
-    title: 'Safety Equipments',
-    desc: 'PPE helmets, harnesses, safety boots, gloves, goggles, hi-vis vests, respirators, and fire safety.',
+    title: 'Industrial Safety Equipments & PPE',
+    desc: 'Certified safety equipment and personal protective gear (PPE) in Sri Lanka. Helmets, safety shoes, vests, harness belts, and protective gloves.',
     count: 51,
   },
 ];
@@ -61,6 +62,14 @@ const reasons = [
 ];
 
 export default function Home() {
+  useEffect(() => {
+    document.title = "K D Senith Traders PVT LTD | Safety Equipment, Manholes & Gully Covers Sri Lanka";
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+      metaDesc.setAttribute("content", "K D Senith Traders PVT LTD is Sri Lanka's leading supplier of certified safety equipment, cast iron manholes, gully covers, and parking safety products. Get premium hardware tools and personal protective gear (PPE) island-wide.");
+    }
+  }, []);
+
   return (
     <main className="page-content">
       {/* ===== HERO ===== */}
@@ -73,9 +82,9 @@ export default function Home() {
               <span className="hero__title-accent">Build Smarter.</span>
             </h1>
             <p className="hero__subtitle">
-              K D Senith Traders PVT LTD is Sri Lanka's premier supplier of certified
-              safety equipment and professional hardware tools. Quality you can count on,
-              pricing that works for your business.
+              K D Senith Traders PVT LTD is Sri Lanka's premier supplier of certified safety equipment,
+              cast iron manholes, gully covers, and professional hardware tools. Find premium PPE and 
+              road safety solutions island-wide. Quality you can count on, pricing that works for your business.
             </p>
             <div className="hero__actions">
               <Link to="/products" className="btn btn--primary btn--lg" id="hero-browse-btn">

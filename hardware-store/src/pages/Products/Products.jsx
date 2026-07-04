@@ -10,6 +10,15 @@ export default function Products() {
   const [sortBy, setSortBy] = useState('default');
   const [searchQuery, setSearchQuery] = useState('');
 
+  // SEO metadata setup
+  useEffect(() => {
+    document.title = "Premium Safety Equipment & Cast Iron Manholes Catalog | K D Senith Traders";
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+      metaDesc.setAttribute("content", "Browse our full catalog of certified safety equipment, personal protective gear (PPE), cast iron manhole and gully covers, and parking safety products in Sri Lanka. Request custom quotes today.");
+    }
+  }, []);
+
   // Sync category from URL query param
   useEffect(() => {
     const cat = searchParams.get('cat');
@@ -62,7 +71,8 @@ export default function Products() {
             <span className="section-label section-label--light">Full Catalog</span>
             <h1 className="products-hero__title">Our Products</h1>
             <p className="products-hero__sub">
-              Browse our complete range of certified safety equipment and professional hardware tools.
+              Browse our comprehensive catalog of certified safety equipment, personal protective gear (PPE), 
+              premium cast iron manholes, gully covers, and road safety products in Sri Lanka.
             </p>
           </div>
           <div className="products-hero__stats">
