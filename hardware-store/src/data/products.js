@@ -14,7 +14,7 @@ export const products = [
   // ============================================================
 
   {
-    id: 2, sku: 'MH-CI-002', name: 'BMC Gully Covers', category: 'manhole', inStock: true, featured: false, image: '2.jpg',
+    id: 2, sku: 'MH-CI-002', name: 'BMC Gully Covers', category: 'manhole', inStock: true, featured: false, image: '2.webp',
     specs: [
       { sizeMm: '300×300×30', sizeInches: '12"×12"×1¼"', loadingCapacity: '12.5 Tons', en124Standard: 'B125' },
       { sizeMm: '400×400×30', sizeInches: '16"×16"×1½"', loadingCapacity: '12.5 Tons', en124Standard: 'B125' },
@@ -25,7 +25,7 @@ export const products = [
     ],
   },
   {
-    id: 5, sku: 'MH-GC-005', name: 'SMC Square Manhole Cover', category: 'manhole', inStock: true, featured: false, image: '5.jpg',
+    id: 5, sku: 'MH-GC-005', name: 'SMC Square Manhole Cover', category: 'manhole', inStock: true, featured: false, image: '5.webp',
     specs: [
       { sizeMm: '300×300×20', sizeInches: '12"×12"×¾"', loadingCapacity: '1.5 Tons', en124Standard: 'A15' },
       { sizeMm: '400×400×20', sizeInches: '16"×16"×¾"', loadingCapacity: '1.5 Tons', en124Standard: 'A15' },
@@ -35,7 +35,7 @@ export const products = [
     ],
   },
   {
-    id: 6, sku: 'MH-CI-006', name: 'SMC Rectangle Manhole Cover', category: 'manhole', inStock: true, featured: false, image: '6.jpg',
+    id: 6, sku: 'MH-CI-006', name: 'SMC Rectangle Manhole Cover', category: 'manhole', inStock: true, featured: false, image: '6.webp',
     specs: [
       { sizeMm: '600×450×20', sizeInches: '24"×18"×¼"', loadingCapacity: '1.5 Tons', en124Standard: 'A15' },
     ],
@@ -52,7 +52,7 @@ export const products = [
     category: 'parking',
     inStock: true,
     featured: true,
-    image: 'extracted_row_4.png',
+    image: 'extracted_row_4.webp',
     specs: [
       { label: 'Size', value: '500×350×40 mm' },
       { label: 'Weight', value: '4.3 kg/m' },
@@ -68,7 +68,7 @@ export const products = [
     category: 'parking',
     inStock: true,
     featured: false,
-    image: 'extracted_row_5.png',
+    image: 'extracted_row_5.webp',
     specs: [
       { label: 'Size', value: '⌀350 mm' },
       { label: 'Packing', value: '30 pcs/woven bag' }
@@ -81,7 +81,7 @@ export const products = [
     category: 'parking',
     inStock: true,
     featured: false,
-    image: 'extracted_row_6.png',
+    image: 'extracted_row_6.webp',
     specs: [
       { label: 'Size', value: '250×350×50 mm' },
       { label: 'Weight', value: '5.4 kg/m' },
@@ -96,7 +96,7 @@ export const products = [
     category: 'parking',
     inStock: true,
     featured: false,
-    image: 'extracted_row_7.png',
+    image: 'extracted_row_7.webp',
     specs: [
       { label: 'Size', value: '500×350×50 mm' },
       { label: 'Weight', value: '12.5 kg/m' },
@@ -111,7 +111,7 @@ export const products = [
     category: 'parking',
     inStock: true,
     featured: false,
-    image: 'extracted_row_8.png',
+    image: 'extracted_row_8.webp',
     specs: [
       { label: 'Size', value: '⌀350 mm' },
       { label: 'Weight', value: '1.5 kg' },
@@ -125,7 +125,7 @@ export const products = [
     category: 'parking',
     inStock: true,
     featured: false,
-    image: 'extracted_row_9.png',
+    image: 'extracted_row_9.webp',
     specs: [
       { label: 'Size', value: '1000 × 160 × 50 mm' },
       { label: 'Weight', value: '4.5 kg' },
@@ -140,7 +140,7 @@ export const products = [
     category: 'parking',
     inStock: true,
     featured: false,
-    image: 'extracted_row_10.png',
+    image: 'extracted_row_10.webp',
     specs: [
       { label: 'Size', value: '1200 mm (also available 1000 mm)' },
       { label: 'Weight', value: '2 kg' },
@@ -155,7 +155,7 @@ export const products = [
     category: 'parking',
     inStock: true,
     featured: false,
-    image: 'extracted_row_11.png',
+    image: 'extracted_row_11.webp',
     specs: [
       { label: 'Size', value: '550 × 150 × 100 mm' },
       { label: 'Weight', value: '4 kg/pc' },
@@ -169,7 +169,7 @@ export const products = [
     category: 'parking',
     inStock: true,
     featured: false,
-    image: 'extracted_row_12.png',
+    image: 'extracted_row_12.webp',
     specs: [
       { label: 'Material', value: 'Rubber' }
     ]
@@ -181,7 +181,7 @@ export const products = [
     category: 'parking',
     inStock: true,
     featured: false,
-    image: 'extracted_row_13.png',
+    image: 'extracted_row_13.webp',
     specs: [
       { label: 'Size', value: '8 mm' },
       { label: 'Color', value: 'Red/White, Black/Yellow' },
@@ -195,7 +195,7 @@ export const products = [
     category: 'parking',
     inStock: true,
     featured: false,
-    image: 'extracted_row_14.png',
+    image: 'extracted_row_14.webp',
     specs: [
       { label: 'Length', value: '2 meters' },
       { label: 'Color', value: 'White & Red' },
@@ -210,7 +210,7 @@ export const products = [
     category: 'parking',
     inStock: true,
     featured: false,
-    image: 'extracted_row_15.png',
+    image: 'extracted_row_15.webp',
     specs: [
       { label: 'Size', value: '1800 × 900 × 900 mm' },
       { label: 'Weight', value: '30 kg' }
@@ -223,7 +223,7 @@ export const products = [
     category: 'parking',
     inStock: true,
     featured: false,
-    image: 'extracted_row_16.png',
+    image: 'extracted_row_16.webp',
     specs: [
       { label: 'Outer Diameter', value: '72 cm' },
       { label: 'Inner Diameter', value: '44 cm' },
@@ -240,7 +240,7 @@ export const products = [
     category: 'parking',
     inStock: true,
     featured: false,
-    image: 'extracted_row_17.png',
+    image: 'extracted_row_17.webp',
     specs: [
       { label: 'Size', value: '104cm × 14.5cm × 7cm' },
       { label: 'Accessories', value: '153cm webbing with brass fastener, 1.5 yard cotton rope, straps' }
@@ -253,7 +253,7 @@ export const products = [
     category: 'parking',
     inStock: true,
     featured: false,
-    image: 'extracted_row_18.png',
+    image: 'extracted_row_18.webp',
     specs: [
       { label: 'Material', value: 'Super Polyethylene Rubber' },
       { label: 'Buoyancy', value: '> 140 N' },
@@ -268,7 +268,7 @@ export const products = [
     category: 'parking',
     inStock: true,
     featured: false,
-    image: 'extracted_row_19.png',
+    image: 'extracted_row_19.webp',
     specs: [
       { label: 'Rope type', value: '9 mm 32-Strand PP Braided Floating Rope' },
       { label: 'Length', value: '20 Meters' }
@@ -281,7 +281,7 @@ export const products = [
     category: 'parking',
     inStock: true,
     featured: false,
-    image: 'extracted_row_20.png',
+    image: 'extracted_row_20.webp',
     specs: [
       { label: 'Size', value: '930mm × 765mm × 450mm' }
     ]
@@ -293,9 +293,159 @@ export const products = [
     category: 'parking',
     inStock: true,
     featured: false,
-    image: 'extracted_row_21.png',
+    image: 'extracted_row_21.webp',
     specs: [
       { label: 'Size', value: '2000mm × 1000mm × 500mm' }
+    ]
+  },
+  {
+    id: 27,
+    sku: 'PK-019',
+    name: 'Convex Traffic Mirror',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'IMG-20260714-WA0000.jpg',
+    specs: [
+      { label: 'Material', value: 'Acrylic (Shatterproof) & ABS Plastic' },
+      { label: 'Color', value: 'Orange' },
+      { label: 'Size', value: '450mm, 600mm, 800mm, 1000mm' },
+      { label: 'Type', value: 'Indoor / Outdoor' }
+    ]
+  },
+  {
+    id: 28,
+    sku: 'PK-020',
+    name: 'Traffic Pole Flexible Guide Post',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'IMG-20260714-WA0001.jpg',
+    specs: [
+      { label: 'Height', value: '750 mm' },
+      { label: 'Material', value: 'PU (Polyurethane)' },
+      { label: 'Color', value: 'Orange with Yellow Reflective Stripes' },
+      { label: 'Weight', value: 'Approx. 1.2 kg' }
+    ]
+  },
+  {
+    id: 29,
+    sku: 'PK-021',
+    name: 'Plastic Speed Hump',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'IMG-20260714-WA0002.jpg',
+    specs: [
+      { label: 'Material', value: 'High Quality Plastic' },
+      { label: 'Color', value: 'Yellow & Black' },
+      { label: 'Dimensions', value: 'Middle: 350×250×50 mm, End: 250×175×50 mm' },
+      { label: 'Height', value: '50 mm' }
+    ]
+  },
+  {
+    id: 30,
+    sku: 'PK-022',
+    name: 'Rubber Wheel Chock',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'IMG-20260714-WA0003.jpg',
+    specs: [
+      { label: 'Material', value: 'Heavy Duty Rubber' },
+      { label: 'Color', value: 'Black with Yellow Stripes' },
+      { label: 'Dimensions', value: '250 × 150 × 190 mm (10" × 6" × 7.3")' },
+      { label: 'Weight', value: 'Approx. 3.1 kg (6.8 lbs)' }
+    ]
+  },
+  {
+    id: 31,
+    sku: 'PK-023',
+    name: 'Rubber Cable Protector',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'IMG-20260714-WA0004.jpg',
+    specs: [
+      { label: 'Material', value: 'Heavy Duty Rubber' },
+      { label: 'Color', value: 'Black Base with Yellow Lid' },
+      { label: 'Dimensions', value: '1000 × 250 × 45 mm' },
+      { label: 'Weight', value: 'Approx. 7.5 kg' },
+      { label: 'Type', value: 'Multiple cable channels (3 × 3 cm each)' }
+    ]
+  },
+  {
+    id: 32,
+    sku: 'PK-024',
+    name: 'Wall Protector (Heavy Duty)',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'IMG-20260714-WA0005.jpg',
+    specs: [
+      { label: 'Material', value: 'High Quality Natural Rubber' },
+      { label: 'Color', value: 'Black with Yellow Reflective Strip' },
+      { label: 'Dimensions', value: '1000 × 160 × 50 mm' },
+      { label: 'Weight', value: 'Approx. 6.5 kg' }
+    ]
+  },
+  {
+    id: 33,
+    sku: 'PK-025',
+    name: 'Road Safety Rubber Wall Bumper',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'IMG-20260714-WA0006.jpg',
+    specs: [
+      { label: 'Material', value: 'Rubber' },
+      { label: 'Color', value: 'Black Base with Yellow Reflective Sheets' },
+      { label: 'Dimensions', value: '550 × 150 × 100 mm' },
+      { label: 'Weight', value: '7.5 kg' }
+    ]
+  },
+  {
+    id: 34,
+    sku: 'PK-026',
+    name: 'Rubber Wheel Stopper (Compact)',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'IMG-20260714-WA0007.jpg',
+    specs: [
+      { label: 'Material', value: 'Recycled Rubber & Plastic' },
+      { label: 'Color', value: 'Black with Yellow Reflective Strips' },
+      { label: 'Dimensions', value: '480 × 150 × 100 mm' },
+      { label: 'Weight', value: '2.5 kg' }
+    ]
+  },
+  {
+    id: 35,
+    sku: 'PK-027',
+    name: 'Rubber Corner Guard (Heavy Duty)',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'IMG-20260714-WA0008.jpg',
+    specs: [
+      { label: 'Material', value: 'High-quality Natural / Synthetic Rubber (NR/SBR)' },
+      { label: 'Color', value: 'Black with Yellow Reflective Markings' },
+      { label: 'Dimensions', value: '1200 mm Length, 75–100 mm Width, 8–12 mm Thickness' }
+    ]
+  },
+  {
+    id: 36,
+    sku: 'PK-028',
+    name: 'Rubber Speed Reducer',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'IMG-20260714-WA0009.jpg',
+    specs: [
+      { label: 'Material', value: 'Rubber' },
+      { label: 'Color', value: 'Black / Yellow' },
+      { label: 'Dimensions', value: '1000 × 350 × 50 mm' },
+      { label: 'Reflective', value: 'Trapezoidal Reflector' }
     ]
   },
 
@@ -305,239 +455,239 @@ export const products = [
 
   // --- Lights & Mirrors (Senith_Lights_Mirrors.xlsx) ---
   {
-    id: 100, sku: 'LM-001', name: 'Car/Truck Emergency Beacon Light', category: 'safety', inStock: true, featured: true, image: 'LM_r4.png',
+    id: 100, sku: 'LM-001', name: 'Car/Truck Emergency Beacon Light', category: 'safety', inStock: true, featured: true, image: 'LM_r4.webp',
     specs: [{ label: 'Model', value: 'AB-1150' }, { label: 'Color', value: 'Red & Yellow' }, { label: 'Diameter', value: '11.5 cm' }, { label: 'Power', value: 'DC 12V' }]
   },
   {
-    id: 101, sku: 'LM-002', name: 'Aviation Light (AC)', category: 'safety', inStock: true, featured: false, image: 'LM_r5.png',
+    id: 101, sku: 'LM-002', name: 'Aviation Light (AC)', category: 'safety', inStock: true, featured: false, image: 'LM_r5.webp',
     specs: [{ label: 'Model', value: 'ST-SAL003(AC)' }, { label: 'Color', value: 'Red' }, { label: 'Size', value: 'H 26.5cm × D 14cm' }, { label: 'Visual Distance', value: '5 km' }]
   },
   {
-    id: 102, sku: 'LM-003', name: 'Aviation Light (Solar)', category: 'safety', inStock: true, featured: false, image: 'LM_r6.png',
+    id: 102, sku: 'LM-003', name: 'Aviation Light (Solar)', category: 'safety', inStock: true, featured: false, image: 'LM_r6.webp',
     specs: [{ label: 'Model', value: 'ST-SAL003' }, { label: 'Color', value: 'Red' }, { label: 'Size', value: 'H 26.5cm × D 14cm' }, { label: 'Solar Panel', value: '4.8V 630mA, 3W' }, { label: 'Visual Distance', value: '5 km' }]
   },
   {
-    id: 103, sku: 'LM-004', name: 'GO/STOP LED Paddle', category: 'safety', inStock: true, featured: false, image: 'LM_r7.png',
+    id: 103, sku: 'LM-004', name: 'GO/STOP LED Paddle', category: 'safety', inStock: true, featured: false, image: 'LM_r7.webp',
     specs: [{ label: 'Model', value: 'WL-A21-002' }, { label: 'STOP', value: '9 LED (Red)' }, { label: 'GO', value: '7 LED (Green)' }]
   },
   {
-    id: 104, sku: 'LM-005', name: 'Vehicle Inspection Mirror', category: 'safety', inStock: true, featured: false, image: 'LM_r8.png',
+    id: 104, sku: 'LM-005', name: 'Vehicle Inspection Mirror', category: 'safety', inStock: true, featured: false, image: 'LM_r8.webp',
     specs: [{ label: 'Diameter', value: '20 × 24 cm' }, { label: 'Handle', value: '85 cm / 130 cm (extended)' }]
   },
   {
-    id: 105, sku: 'LM-006', name: 'Arrow Warning LED Light (Large)', category: 'safety', inStock: true, featured: false, image: 'LM_r9.png',
+    id: 105, sku: 'LM-006', name: 'Arrow Warning LED Light (Large)', category: 'safety', inStock: true, featured: false, image: 'LM_r9.webp',
     specs: [{ label: 'Size', value: 'Large' }, { label: 'Dimensions', value: '125 × 64 cm' }, { label: 'LEDs', value: 'Arrow 4 (44 LED)' }]
   },
   {
-    id: 106, sku: 'LM-007', name: 'Arrow Warning LED Light (Small)', category: 'safety', inStock: true, featured: false, image: 'LM_r10.png',
+    id: 106, sku: 'LM-007', name: 'Arrow Warning LED Light (Small)', category: 'safety', inStock: true, featured: false, image: 'LM_r10.webp',
     specs: [{ label: 'Size', value: 'Small' }, { label: 'Dimensions', value: '48 × 28 cm' }, { label: 'LEDs', value: 'Arrow 4 (28 LED)' }]
   },
   {
-    id: 107, sku: 'LM-008', name: 'LED Traffic Cone Cover', category: 'safety', inStock: true, featured: false, image: 'LM_r11.png',
+    id: 107, sku: 'LM-008', name: 'LED Traffic Cone Cover', category: 'safety', inStock: true, featured: false, image: 'LM_r11.webp',
     specs: [{ label: 'Upper LEDs', value: '11' }, { label: 'Lower LEDs', value: '13' }]
   },
 
   // --- Reflective Jackets & Vests (Senith_Safety_Products_2025.xlsx) ---
   {
-    id: 200, sku: 'SP-001', name: 'Reflective Safety Jacket — LA 2002 (4 Pocket, Zip)', category: 'safety', inStock: true, featured: false, image: 'SP_r5.png',
+    id: 200, sku: 'SP-001', name: 'Reflective Safety Jacket — LA 2002 (4 Pocket, Zip)', category: 'safety', inStock: true, featured: false, image: 'SP_r5.webp',
     specs: [{ label: 'Model', value: 'LA 2002' }, { label: 'Pockets', value: '4 Pocket with Zip' }]
   },
   {
-    id: 201, sku: 'SP-002', name: 'Reflective Safety Jacket — LA 2006 (4 Line)', category: 'safety', inStock: true, featured: false, image: 'SP_r6.png',
+    id: 201, sku: 'SP-002', name: 'Reflective Safety Jacket — LA 2006 (4 Line)', category: 'safety', inStock: true, featured: false, image: 'SP_r6.webp',
     specs: [{ label: 'Model', value: 'LA 2006' }, { label: 'Style', value: '4 Line Reflective' }]
   },
   {
-    id: 202, sku: 'SP-003', name: 'Reflective Safety Jacket — LA 2005 (2 Line)', category: 'safety', inStock: true, featured: false, image: 'SP_r7.png',
+    id: 202, sku: 'SP-003', name: 'Reflective Safety Jacket — LA 2005 (2 Line)', category: 'safety', inStock: true, featured: false, image: 'SP_r7.webp',
     specs: [{ label: 'Model', value: 'LA 2005' }, { label: 'Style', value: '2 Line Reflective' }]
   },
   {
-    id: 203, sku: 'SP-004', name: 'Polyester Net Safety Jacket — LA 2042', category: 'safety', inStock: true, featured: false, image: 'SP_r10.png',
+    id: 203, sku: 'SP-004', name: 'Polyester Net Safety Jacket — LA 2042', category: 'safety', inStock: true, featured: false, image: 'SP_r10.webp',
     specs: [{ label: 'Model', value: 'LA 2042' }, { label: 'Material', value: 'Polyester Net' }]
   },
   {
-    id: 204, sku: 'SP-005', name: 'Reflective Safety Jacket — LA 2015 (Yellow/Orange 2 Line)', category: 'safety', inStock: true, featured: false, image: 'SP_r11.png',
+    id: 204, sku: 'SP-005', name: 'Reflective Safety Jacket — LA 2015 (Yellow/Orange 2 Line)', category: 'safety', inStock: true, featured: false, image: 'SP_r11.webp',
     specs: [{ label: 'Model', value: 'LA 2015' }, { label: 'Color', value: 'Yellow / Orange' }, { label: 'Style', value: '2 Line Reflective' }]
   },
   {
-    id: 205, sku: 'SP-006', name: 'Reflective Safety Vest', category: 'safety', inStock: true, featured: false, image: 'SP_r12.png',
+    id: 205, sku: 'SP-006', name: 'Reflective Safety Vest', category: 'safety', inStock: true, featured: false, image: 'SP_r12.webp',
     specs: [{ label: 'Type', value: 'Reflective Vest' }]
   },
   {
-    id: 206, sku: 'SP-007', name: 'Rain Coat Full Kit', category: 'safety', inStock: true, featured: false, image: 'SP_r13.png',
+    id: 206, sku: 'SP-007', name: 'Rain Coat Full Kit', category: 'safety', inStock: true, featured: false, image: 'SP_r13.webp',
     specs: [{ label: 'Type', value: 'Full Rain Coat Kit (Jacket + Trousers)' }]
   },
   {
-    id: 207, sku: 'SP-008', name: 'EXIT Sign', category: 'safety', inStock: true, featured: false, image: 'SP_r16.png',
+    id: 207, sku: 'SP-008', name: 'EXIT Sign', category: 'safety', inStock: true, featured: false, image: 'SP_r16.webp',
     specs: [{ label: 'Type', value: 'LED EXIT Sign' }]
   },
 
   // --- Gloves ---
   {
-    id: 208, sku: 'SP-009', name: 'Gloves — Single Dot Coating (Black)', category: 'safety', inStock: true, featured: false, image: 'SP_r18.png',
+    id: 208, sku: 'SP-009', name: 'Gloves — Single Dot Coating (Black)', category: 'safety', inStock: true, featured: false, image: 'SP_r18.webp',
     specs: [{ label: 'Coating', value: 'Single Dot' }, { label: 'Color', value: 'Black' }]
   },
   {
-    id: 209, sku: 'SP-010', name: 'Gloves — Orange Rubber Coating', category: 'safety', inStock: true, featured: false, image: 'SP_r20.png',
+    id: 209, sku: 'SP-010', name: 'Gloves — Orange Rubber Coating', category: 'safety', inStock: true, featured: false, image: 'SP_r20.webp',
     specs: [{ label: 'Coating', value: 'Orange Rubber' }]
   },
 
   // --- Masks & Respiratory ---
   {
-    id: 210, sku: 'SP-011', name: 'Oxypura Face Mask', category: 'safety', inStock: true, featured: false, image: 'SP_r22.png',
+    id: 210, sku: 'SP-011', name: 'Oxypura Face Mask', category: 'safety', inStock: true, featured: false, image: 'SP_r22.webp',
     specs: [{ label: 'Brand', value: 'Oxypura' }, { label: 'Type', value: 'Disposable Face Mask' }]
   },
   {
-    id: 211, sku: 'SP-012', name: 'Chemical Respirator', category: 'safety', inStock: true, featured: false, image: 'SP_r23.png',
+    id: 211, sku: 'SP-012', name: 'Chemical Respirator', category: 'safety', inStock: true, featured: false, image: 'SP_r23.webp',
     specs: [{ label: 'Type', value: 'Half-Face Chemical Respirator' }]
   },
 
   // --- Eye Protection ---
   {
-    id: 212, sku: 'SP-013', name: 'Safety Goggles (Transparent)', category: 'safety', inStock: true, featured: false, image: 'SP_r25.png',
+    id: 212, sku: 'SP-013', name: 'Safety Goggles (Transparent)', category: 'safety', inStock: true, featured: false, image: 'SP_r25.webp',
     specs: [{ label: 'Lens', value: 'Transparent' }, { label: 'Type', value: 'Safety Goggles' }]
   },
 
   // --- Boots & Shoes ---
   {
-    id: 213, sku: 'SP-014', name: 'Gum Boot — Panther (Black, Size 44)', category: 'safety', inStock: true, featured: false, image: 'SP_r27.png',
+    id: 213, sku: 'SP-014', name: 'Gum Boot — Panther (Black, Size 44)', category: 'safety', inStock: true, featured: false, image: 'SP_r27.webp',
     specs: [{ label: 'Brand', value: 'Panther' }, { label: 'Color', value: 'Black' }, { label: 'Size', value: '44' }]
   },
   {
-    id: 214, sku: 'SP-015', name: 'Yellow Gum Boot', category: 'safety', inStock: true, featured: false, image: 'SP_r28.png',
+    id: 214, sku: 'SP-015', name: 'Yellow Gum Boot', category: 'safety', inStock: true, featured: false, image: 'SP_r28.webp',
     specs: [{ label: 'Color', value: 'Yellow' }, { label: 'Type', value: 'Gum Boot' }]
   },
   {
-    id: 215, sku: 'SP-016', name: 'Safety Shoes — Miller', category: 'safety', inStock: true, featured: false, image: 'SP_r29.png',
+    id: 215, sku: 'SP-016', name: 'Safety Shoes — Miller', category: 'safety', inStock: true, featured: false, image: 'SP_r29.webp',
     specs: [{ label: 'Brand', value: 'Miller' }, { label: 'Type', value: 'Safety Shoes' }]
   },
 
   // --- Helmets ---
   {
-    id: 216, sku: 'SP-017', name: 'Safety Helmet — JPI Yellow (NE 397:2012)', category: 'safety', inStock: true, featured: false, image: 'SP_r31.png',
+    id: 216, sku: 'SP-017', name: 'Safety Helmet — JPI Yellow (NE 397:2012)', category: 'safety', inStock: true, featured: false, image: 'SP_r31.webp',
     specs: [{ label: 'Brand', value: 'JPI' }, { label: 'Color', value: 'Yellow' }, { label: 'Standard', value: 'NE 397:2012' }]
   },
   {
-    id: 217, sku: 'SP-018', name: 'Safety Helmet (White)', category: 'safety', inStock: true, featured: false, image: 'SP_r33.png',
+    id: 217, sku: 'SP-018', name: 'Safety Helmet (White)', category: 'safety', inStock: true, featured: false, image: 'SP_r33.webp',
     specs: [{ label: 'Color', value: 'White' }, { label: 'Type', value: 'Safety Helmet' }]
   },
 
   // --- Convex Mirrors ---
   {
-    id: 218, sku: 'SP-019', name: "Convex Mirror Outdoor — 450mm (18\")", category: 'safety', inStock: true, featured: false, image: 'SP_r35.png',
+    id: 218, sku: 'SP-019', name: "Convex Mirror Outdoor — 450mm (18\")", category: 'safety', inStock: true, featured: false, image: 'SP_r35.webp',
     specs: [{ label: 'Diameter', value: "450 mm (18\")" }, { label: 'Use', value: 'Outdoor' }]
   },
   {
-    id: 219, sku: 'SP-020', name: "Convex Mirror Outdoor — 600mm (24\")", category: 'safety', inStock: true, featured: false, image: 'SP_r36.png',
+    id: 219, sku: 'SP-020', name: "Convex Mirror Outdoor — 600mm (24\")", category: 'safety', inStock: true, featured: false, image: 'SP_r36.webp',
     specs: [{ label: 'Diameter', value: "600 mm (24\")" }, { label: 'Use', value: 'Outdoor' }]
   },
   {
-    id: 220, sku: 'SP-021', name: "Convex Mirror Outdoor — 800mm (30\")", category: 'safety', inStock: true, featured: false, image: 'SP_r37.png',
+    id: 220, sku: 'SP-021', name: "Convex Mirror Outdoor — 800mm (30\")", category: 'safety', inStock: true, featured: false, image: 'SP_r37.webp',
     specs: [{ label: 'Diameter', value: "800 mm (30\")" }, { label: 'Use', value: 'Outdoor' }]
   },
   {
-    id: 221, sku: 'SP-022', name: 'Convex Mirror Outdoor — 1000mm', category: 'safety', inStock: true, featured: false, image: 'SP_r38.png',
+    id: 221, sku: 'SP-022', name: 'Convex Mirror Outdoor — 1000mm', category: 'safety', inStock: true, featured: false, image: 'SP_r38.webp',
     specs: [{ label: 'Diameter', value: '1000 mm' }, { label: 'Use', value: 'Outdoor' }]
   },
   {
-    id: 222, sku: 'SP-023', name: 'Vehicle Inspection Mirror (20×24cm)', category: 'safety', inStock: true, featured: false, image: 'SP_r39.png',
+    id: 222, sku: 'SP-023', name: 'Vehicle Inspection Mirror (20×24cm)', category: 'safety', inStock: true, featured: false, image: 'SP_r39.webp',
     specs: [{ label: 'Diameter', value: '20 × 24 cm' }, { label: 'Handle', value: 'Up to 130 cm extended' }]
   },
   {
-    id: 223, sku: 'SP-024', name: 'Acrylic Full Dome Mirror — 600mm', category: 'safety', inStock: true, featured: false, image: 'SP_r40.png',
+    id: 223, sku: 'SP-024', name: 'Acrylic Full Dome Mirror — 600mm', category: 'safety', inStock: true, featured: false, image: 'SP_r40.webp',
     specs: [{ label: 'Diameter', value: '600 mm' }, { label: 'Type', value: 'Acrylic Full Dome' }]
   },
 
   // --- Traffic Cones & Bollards ---
   {
-    id: 224, sku: 'SP-025', name: 'Traffic Cone PVC 2-Line 750mm', category: 'safety', inStock: true, featured: false, image: 'SP_r42.png',
+    id: 224, sku: 'SP-025', name: 'Traffic Cone PVC 2-Line 750mm', category: 'safety', inStock: true, featured: false, image: 'SP_r42.webp',
     specs: [{ label: 'Material', value: 'PVC' }, { label: 'Height', value: '750 mm' }, { label: 'Reflective', value: '2 Line' }]
   },
   {
-    id: 225, sku: 'SP-026', name: 'Traffic Cone Big Foot PVC 2-Line 750mm (4.3kg)', category: 'safety', inStock: true, featured: false, image: 'SP_r43.png',
+    id: 225, sku: 'SP-026', name: 'Traffic Cone Big Foot PVC 2-Line 750mm (4.3kg)', category: 'safety', inStock: true, featured: false, image: 'SP_r43.webp',
     specs: [{ label: 'Material', value: 'PVC' }, { label: 'Height', value: '750 mm' }, { label: 'Weight', value: '4.3 kg' }, { label: 'Base', value: 'Big Foot' }]
   },
   {
-    id: 226, sku: 'SP-027', name: 'TPU Flexible Bollard Post Red — 1000mm', category: 'safety', inStock: true, featured: false, image: 'SP_r45.png',
+    id: 226, sku: 'SP-027', name: 'TPU Flexible Bollard Post Red — 1000mm', category: 'safety', inStock: true, featured: false, image: 'SP_r45.webp',
     specs: [{ label: 'Material', value: 'TPU Flexible' }, { label: 'Color', value: 'Red' }, { label: 'Height', value: '1000 mm' }]
   },
   {
-    id: 227, sku: 'SP-028', name: 'TPU Flexible Bollard Post Red — 750mm', category: 'safety', inStock: true, featured: false, image: 'SP_r46.png',
+    id: 227, sku: 'SP-028', name: 'TPU Flexible Bollard Post Red — 750mm', category: 'safety', inStock: true, featured: false, image: 'SP_r46.webp',
     specs: [{ label: 'Material', value: 'TPU Flexible' }, { label: 'Color', value: 'Red' }, { label: 'Height', value: '750 mm' }]
   },
 
   // --- Warning Tape & Hazard Triangles ---
   {
-    id: 228, sku: 'SP-029', name: 'Barricade Tape 1kg', category: 'safety', inStock: true, featured: false, image: 'SP_r48.png',
+    id: 228, sku: 'SP-029', name: 'Barricade Tape 1kg', category: 'safety', inStock: true, featured: false, image: 'SP_r48.webp',
     specs: [{ label: 'Weight', value: '1 kg' }, { label: 'Type', value: 'Barricade Tape' }]
   },
   {
-    id: 229, sku: 'SP-030', name: 'Warning Tape — Red & White', category: 'safety', inStock: true, featured: false, image: 'SP_r49.png',
+    id: 229, sku: 'SP-030', name: 'Warning Tape — Red & White', category: 'safety', inStock: true, featured: false, image: 'SP_r49.webp',
     specs: [{ label: 'Color', value: 'Red & White' }, { label: 'Type', value: 'Warning Tape' }]
   },
   {
-    id: 230, sku: 'SP-031', name: 'Hazard Triangle Floor Stand (Red)', category: 'safety', inStock: true, featured: false, image: 'SP_r50.png',
+    id: 230, sku: 'SP-031', name: 'Hazard Triangle Floor Stand (Red)', category: 'safety', inStock: true, featured: false, image: 'SP_r50.webp',
     specs: [{ label: 'Color', value: 'Red' }, { label: 'Type', value: 'Floor Stand Triangle' }]
   },
   {
-    id: 231, sku: 'SP-032', name: 'Hazard Triangle Floor Stand with Cloth (Red)', category: 'safety', inStock: true, featured: false, image: 'SP_r51.png',
+    id: 231, sku: 'SP-032', name: 'Hazard Triangle Floor Stand with Cloth (Red)', category: 'safety', inStock: true, featured: false, image: 'SP_r51.webp',
     specs: [{ label: 'Color', value: 'Red' }, { label: 'Includes', value: 'Reflective Cloth' }]
   },
 
   // --- Road Studs ---
   {
-    id: 232, sku: 'SP-033', name: 'Aluminum Road Stud', category: 'safety', inStock: true, featured: false, image: 'SP_r53.png',
+    id: 232, sku: 'SP-033', name: 'Aluminum Road Stud', category: 'safety', inStock: true, featured: false, image: 'SP_r53.webp',
     specs: [{ label: 'Material', value: 'Aluminum' }, { label: 'Type', value: 'Road Stud' }]
   },
   {
-    id: 233, sku: 'SP-034', name: '3M Road Stud', category: 'safety', inStock: true, featured: false, image: 'SP_r54.png',
+    id: 233, sku: 'SP-034', name: '3M Road Stud', category: 'safety', inStock: true, featured: false, image: 'SP_r54.webp',
     specs: [{ label: 'Brand', value: '3M' }, { label: 'Type', value: 'Road Stud' }]
   },
   {
-    id: 234, sku: 'SP-035', name: 'Solar Road Stud', category: 'safety', inStock: true, featured: false, image: 'SP_r55.png',
+    id: 234, sku: 'SP-035', name: 'Solar Road Stud', category: 'safety', inStock: true, featured: false, image: 'SP_r55.webp',
     specs: [{ label: 'Power', value: 'Solar LED' }, { label: 'Type', value: 'Road Stud' }]
   },
 
   // --- Metal Detectors ---
   {
-    id: 235, sku: 'SP-036', name: 'Hand Held Metal Detector — MD-3003BI', category: 'safety', inStock: true, featured: false, image: 'SP_r57.png',
+    id: 235, sku: 'SP-036', name: 'Hand Held Metal Detector — MD-3003BI', category: 'safety', inStock: true, featured: false, image: 'SP_r57.webp',
     specs: [{ label: 'Model', value: 'MD-3003BI (Super Scanner)' }, { label: 'Type', value: 'Hand Held' }]
   },
   {
-    id: 236, sku: 'SP-037', name: 'Hand Held Metal Detector — GP-3003BI', category: 'safety', inStock: true, featured: false, image: 'SP_r58.png',
+    id: 236, sku: 'SP-037', name: 'Hand Held Metal Detector — GP-3003BI', category: 'safety', inStock: true, featured: false, image: 'SP_r58.webp',
     specs: [{ label: 'Model', value: 'GP-3003BI' }, { label: 'Type', value: 'Hand Held' }]
   },
   {
-    id: 237, sku: 'SP-038', name: 'Metal Detector — GC-1002', category: 'safety', inStock: true, featured: false, image: 'SP_r59.png',
+    id: 237, sku: 'SP-038', name: 'Metal Detector — GC-1002', category: 'safety', inStock: true, featured: false, image: 'SP_r59.webp',
     specs: [{ label: 'Model', value: 'GC-1002' }]
   },
 
   // --- Ratchet Straps ---
   {
-    id: 238, sku: 'SP-039', name: 'Ratchet Strap — 10m', category: 'safety', inStock: true, featured: false, image: 'SP_r61.png',
+    id: 238, sku: 'SP-039', name: 'Ratchet Strap — 10m', category: 'safety', inStock: true, featured: false, image: 'SP_r61.webp',
     specs: [{ label: 'Length', value: '10 m' }, { label: 'Type', value: 'Ratchet Strap' }]
   },
   {
-    id: 239, sku: 'SP-040', name: 'Ratchet Strap — 12m', category: 'safety', inStock: true, featured: false, image: 'SP_r62.png',
+    id: 239, sku: 'SP-040', name: 'Ratchet Strap — 12m', category: 'safety', inStock: true, featured: false, image: 'SP_r62.webp',
     specs: [{ label: 'Length', value: '12 m' }, { label: 'Type', value: 'Ratchet Strap' }]
   },
   {
-    id: 240, sku: 'SP-041', name: 'Ratchet Strap — 15m', category: 'safety', inStock: true, featured: false, image: 'SP_r63.png',
+    id: 240, sku: 'SP-041', name: 'Ratchet Strap — 15m', category: 'safety', inStock: true, featured: false, image: 'SP_r63.webp',
     specs: [{ label: 'Length', value: '15 m' }, { label: 'Type', value: 'Ratchet Strap' }]
   },
 
   // --- Safety Belts & Harnesses ---
   {
-    id: 241, sku: 'SP-042', name: 'Safety Belt (Normal)', category: 'safety', inStock: true, featured: false, image: 'SP_r65.png',
+    id: 241, sku: 'SP-042', name: 'Safety Belt (Normal)', category: 'safety', inStock: true, featured: false, image: 'SP_r65.webp',
     specs: [{ label: 'Type', value: 'Normal Safety Belt' }, { label: 'Pack', value: 'Small Box' }]
   },
   {
-    id: 242, sku: 'SP-043', name: 'Safety Harness — Orange (Yellow Box)', category: 'safety', inStock: true, featured: false, image: 'SP_r66.png',
+    id: 242, sku: 'SP-043', name: 'Safety Harness — Orange (Yellow Box)', category: 'safety', inStock: true, featured: false, image: 'SP_r66.webp',
     specs: [{ label: 'Color', value: 'Orange' }, { label: 'Pack', value: 'Yellow Box' }, { label: 'Type', value: 'Full Body Harness' }]
   },
 
   // --- Wet Floor Sign ---
   {
-    id: 243, sku: 'SP-044', name: 'Wet Floor Sign', category: 'safety', inStock: true, featured: false, image: 'SP_r68.png',
+    id: 243, sku: 'SP-044', name: 'Wet Floor Sign', category: 'safety', inStock: true, featured: false, image: 'SP_r68.webp',
     specs: [{ label: 'Type', value: 'Wet Floor Caution Sign' }, { label: 'Shape', value: 'A-Frame' }]
   },
 
@@ -549,7 +699,7 @@ export const products = [
     category: 'parking',
     inStock: true,
     featured: false,
-    image: 'Senith_Rubber_Speed_Hump.png',
+    image: 'Senith_Rubber_Speed_Hump.webp',
     description: 'Rubber Speed Bump made of high-quality rubber materials, featuring high durability and strength with excellent resistance to wear and pressure, ensuring a long service life. It has a visible and clear design with eye-catching colors, making it effective in various environmental conditions. Designed to reduce vehicle speed in areas that require speed reduction, helping to improve road safety.',
     specs: [
       { label: 'Size', value: '1000 × 325 × 50 mm' },

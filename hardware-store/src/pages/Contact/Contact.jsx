@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 import './Contact.css';
-import i1 from '../../assets/map.png';
-import i2 from '../../assets/email.png';
-import i3 from '../../assets/phone-call.png';
-import i4 from '../../assets/time.png';
+import i1 from '../../assets/map.webp';
+import i2 from '../../assets/email.webp';
+import i3 from '../../assets/phone-call.webp';
+import i4 from '../../assets/time.webp';
 
 const businessInfo = [
   {

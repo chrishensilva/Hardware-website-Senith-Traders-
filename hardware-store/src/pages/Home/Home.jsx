@@ -5,12 +5,12 @@ import { getFeaturedProducts } from '../../data/products';
 import './Home.css';
 
 // Import custom icons
-import roadIcon from '../../assets/road.png';
-import tollIcon from '../../assets/toll.png';
-import vestIcon from '../../assets/high-visibility-vest.png';
-import i1 from '../../assets/high-quality.png';
-import i2 from '../../assets/b2b.png';
-import i3 from '../../assets/phone-call.png';
+import roadIcon from '../../assets/road.webp';
+import tollIcon from '../../assets/toll.webp';
+import vestIcon from '../../assets/high-visibility-vest.webp';
+import i1 from '../../assets/high-quality.webp';
+import i2 from '../../assets/b2b.webp';
+import i3 from '../../assets/phone-call.webp';
 
 const featuredProducts = getFeaturedProducts();
 

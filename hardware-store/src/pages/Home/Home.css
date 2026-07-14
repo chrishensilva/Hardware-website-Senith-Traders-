@@ -6,7 +6,7 @@
 .hero {
   position: relative;
   background-color: var(--dark-bg);
-  background-image: linear-gradient(rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.85)), url('../../assets/hero.jpg');
+  background-image: linear-gradient(rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.85)), url('../../assets/hero.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

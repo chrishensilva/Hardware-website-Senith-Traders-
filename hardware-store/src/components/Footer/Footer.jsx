@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
-import logo from '../../assets/LOGO.jpeg';
+import logo from '../../assets/LOGO.webp';
 import './Footer.css';
 
 // Import custom icons
-import mapIcon from '../../assets/map.png';
-import phoneIcon from '../../assets/phone-call.png';
-import emailIcon from '../../assets/email.png';
-import timeIcon from '../../assets/time.png';
+import mapIcon from '../../assets/map.webp';
+import phoneIcon from '../../assets/phone-call.webp';
+import emailIcon from '../../assets/email.webp';
+import timeIcon from '../../assets/time.webp';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
