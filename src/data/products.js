@@ -673,7 +673,7 @@ export const products = [
     inStock: true,
     featured: false,
     image: 'new/WhatsApp Image 2026-07-14 at 15.41.22 (2).jpeg',
-    description: 'High strength natural rubber wheel stopper with anti-skid design and yellow reflective strips. Prevents vehicle collision and helps define correct parking position.',
+    description: 'High strength natural rubber wheel stopper with anti-skid design and yellow reflective strips.Prevents vehicle collision and helps define correct parking position.',
     specs: [
       { label: 'Size (L×W×H)', value: '480mm × 150mm × 100mm' },
       { label: 'Material', value: 'Recycled Rubber & Plastic' },
