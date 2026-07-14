@@ -691,6 +691,182 @@ export const products = [
     specs: [{ label: 'Type', value: 'Wet Floor Caution Sign' }, { label: 'Shape', value: 'A-Frame' }]
   },
 
+  // ============================================================
+  // PARKING SAFETY — New Products (July 2026)
+  // ============================================================
+
+  {
+    id: 245,
+    sku: 'PK-019',
+    name: 'Convex Traffic Mirror',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'new/WhatsApp Image 2026-07-14 at 15.41.20.jpeg',
+    description: 'Wide-angle convex traffic mirror designed to improve safety and visibility in blind spots and high-risk areas. Ideal for roads, parking areas, driveways, factories, warehouses and sharp bends.',
+    specs: [
+      { label: 'Material', value: 'Acrylic (Shatterproof)' },
+      { label: 'Frame', value: 'ABS Plastic' },
+      { label: 'Color', value: 'Orange' },
+      { label: 'Mounting', value: 'Wall / Pole Mounting' },
+      { label: 'Available Sizes', value: '450mm, 600mm, 800mm, 1000mm' },
+    ]
+  },
+  {
+    id: 246,
+    sku: 'PK-020',
+    name: 'Traffic Pole Flexible Guide Post — 750mm',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'new/WhatsApp Image 2026-07-14 at 15.41.20 (1).jpeg',
+    description: 'Flexible PU guide post with bright reflective bands for high visibility. Impact resistant and returns to original shape after impact. Suitable for traffic control, parking areas, and road divisions.',
+    specs: [
+      { label: 'Height', value: '750 mm' },
+      { label: 'Material', value: 'PU (Polyurethane)' },
+      { label: 'Color', value: 'Orange with Yellow Reflective Stripes' },
+      { label: 'Base Diameter', value: '200 mm' },
+      { label: 'Weight', value: 'Approx. 1.2 kg' },
+      { label: 'Reflective Bands', value: '3 Yellow Reflective Stripes' },
+    ]
+  },
+  {
+    id: 247,
+    sku: 'PK-021',
+    name: 'Plastic Speed Hump (Yellow & Black)',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'new/WhatsApp Image 2026-07-14 at 15.41.21.jpeg',
+    description: 'High visibility plastic speed hump designed to reduce vehicle speed and enhance safety in parking areas, roadways, factories, and residential zones.',
+    specs: [
+      { label: 'Material', value: 'High Quality Plastic' },
+      { label: 'Color', value: 'Yellow & Black' },
+      { label: 'Middle Section Size', value: '350 × 250 × 50 mm' },
+      { label: 'End Section Size', value: '250 × 175 × 50 mm' },
+      { label: 'Fixing', value: 'Bolt Fixed' },
+    ]
+  },
+  {
+    id: 248,
+    sku: 'PK-022',
+    name: 'Rubber Wheel Chock — Heavy Duty',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'new/WhatsApp Image 2026-07-14 at 15.41.21 (1).jpeg',
+    description: 'Heavy duty rubber wheel chock designed to securely stop vehicles from rolling. Features a non-slip design with high visibility yellow stripes. Ideal for parking lots, garages, loading docks, and industrial areas.',
+    specs: [
+      { label: 'Material', value: 'Heavy Duty Rubber' },
+      { label: 'Color', value: 'Black with Yellow Stripes' },
+      { label: 'Size (L×W×H)', value: '25cm × 15cm × 19cm (10″×6″×7.3″)' },
+      { label: 'Weight', value: 'Approx. 3.1 kg (6.8 lbs)' },
+    ]
+  },
+  {
+    id: 249,
+    sku: 'PK-023',
+    name: 'Rubber Cable Protector',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'new/WhatsApp Image 2026-07-14 at 15.41.21 (2).jpeg',
+    description: 'Heavy duty rubber cable protector designed to protect cables and wires from vehicle traffic and reduce the risk of tripping. Ideal for roads, construction sites, events and industrial areas.',
+    specs: [
+      { label: 'Material', value: 'Heavy Duty Rubber' },
+      { label: 'Color', value: 'Black Base with Yellow Lid' },
+      { label: 'Size (L×W×H)', value: '100cm × 25cm × 4.5cm' },
+      { label: 'Channel Size', value: '3cm × 3cm (Each Channel)' },
+      { label: 'Weight', value: 'Approx. 7.5 kg' },
+      { label: 'Load Capacity', value: 'Up to 10 Tons' },
+    ]
+  },
+  {
+    id: 250,
+    sku: 'PK-024',
+    name: 'Wall Protector — 1000×160×50mm',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'new/WhatsApp Image 2026-07-14 at 15.41.22.jpeg',
+    description: 'Rubber wall protector designed to protect walls, columns and corners from impacts caused by vehicles and equipment in parking areas, warehouses, factories and loading bays.',
+    specs: [
+      { label: 'Material', value: 'High Quality Natural Rubber' },
+      { label: 'Size (L×H×W)', value: '1000mm × 160mm × 50mm' },
+      { label: 'Color', value: 'Black with Yellow Reflective Strip' },
+      { label: 'Weight', value: 'Approx. 6.5 kg' },
+      { label: 'Installation', value: 'Wall Mounted with Anchor Bolts' },
+    ]
+  },
+  {
+    id: 251,
+    sku: 'PK-025',
+    name: 'Rubber Wall Bumper / Corner Protector — FZT-D550B',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'new/WhatsApp Image 2026-07-14 at 15.41.22 (1).jpeg',
+    description: 'High-impact resistance natural rubber wall bumper finished in bright black with reflective yellow. Minimizes damage when vehicles hit the wall. Versatile protection for car parks, warehouses, and industrial environments.',
+    specs: [
+      { label: 'Model', value: 'FZT-D550B' },
+      { label: 'Material', value: 'Rubber' },
+      { label: 'Size (L×W×H)', value: '550mm × 150mm × 100mm' },
+      { label: 'Color', value: 'Black with Yellow Reflective Sheets' },
+      { label: 'Weight', value: '7.5 kg/PC' },
+    ]
+  },
+  {
+    id: 252,
+    sku: 'PK-026',
+    name: 'Rubber Wheel Stopper — 480×150×100mm',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'new/WhatsApp Image 2026-07-14 at 15.41.22 (2).jpeg',
+    description: 'High strength natural rubber wheel stopper with anti-skid design and yellow reflective strips.Prevents vehicle collision and helps define correct parking position.',
+    specs: [
+      { label: 'Size (L×W×H)', value: '480mm × 150mm × 100mm' },
+      { label: 'Material', value: 'Recycled Rubber & Plastic' },
+      { label: 'Color', value: 'Black with Yellow Stripes' },
+      { label: 'Weight', value: '2.5 kg (Each)' },
+    ]
+  },
+  {
+    id: 253,
+    sku: 'PK-027',
+    name: 'Rubber Corner Guard — 1200mm',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'new/WhatsApp Image 2026-07-14 at 15.41.23.jpeg',
+    description: 'Extra-long 1200mm rubber corner guard with high-visibility yellow reflective strips. Protects vehicles and building corners from collision damage. Shock absorbing, durable, and maintenance-free.',
+    specs: [
+      { label: 'Material', value: 'Natural Rubber / SBR Blend' },
+      { label: 'Length', value: '1200 mm (1.2 m)' },
+      { label: 'Width (each side)', value: '75–100 mm' },
+      { label: 'Thickness', value: '8–12 mm' },
+      { label: 'Corner Angle', value: '90° (pillar & wall edge protection)' },
+      { label: 'Color', value: 'Black with Yellow Reflective Markings' },
+    ]
+  },
+  {
+    id: 254,
+    sku: 'PK-028',
+    name: 'Rubber Speed Reducer / Speed Breaker — 1000×350×50mm',
+    category: 'parking',
+    inStock: true,
+    featured: false,
+    image: 'new/WhatsApp Image 2026-07-14 at 15.41.23 (1).jpeg',
+    description: 'Commercial-grade thermoplastic rubber speed bump with trapezoidal reflector. Strong load capacity of 440,000 lbs. Non-slip surface texture, flexibly spliceable for different road lengths.',
+    specs: [
+      { label: 'Size (L×W×H)', value: '1000mm × 350mm × 50mm' },
+      { label: 'Material', value: 'Thermoplastic Rubber' },
+      { label: 'Color', value: 'Black / Yellow' },
+      { label: 'Load Capacity', value: '440,000 lbs (200 Tons)' },
+      { label: 'Reflector', value: 'Trapezoidal Reflector' },
+    ]
+  },
+
   // --- Rubber Speed Hump ---
   {
     id: 244,
